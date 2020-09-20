@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgba(134, 136, 138, 0.2);
+  }
+  .header{
+  background-image: url("https://www.naturalworldsafaris.com/media/5493/rwanda-richard-denyer-sabyinyo-guhonda.jpg");
+width: 85%;
+height: 40%;
+margin: 0;
+padding: 100px;
+background-size: cover;
+}
+.note{
+  color: rgb(243, 235, 235);
+  text-align: center;
+  font-size: 80px;
+}
+.topnav{
+  overflow: hidden;
+  background-color: black;
+  margin-bottom: 40px;
+  padding: 20px;
+  text-align: right;
+}
+.topnav a{
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+}
+.topnav a:hover{
+  background-color:white;
+  color: black;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin: 60px;
+  padding: 40px;
+}
+.noteb , .notec{
+  text-align: center;
+}
+.image , .imag {
+  display: flex;
+  flex-direction: row;
+  
+}
+.image{
+  width: 45%;
+  float: right;
+}
+.description{
+  width: 45%;
+  float: right;
+}
+.made-in-Rwanda{
+  margin-bottom: 40px;
+}
+#shoes , #volk  , #akag , #nyug , #volc , #gis {
+  margin: 30px;
+  width: 30%;
+  height: 300px;
+}
+#shoes{
+  background-image: url("https://i0.wp.com/tdsblog.com/wp-content/uploads/2017/09/19149432_611356769060646_749822029632856734_n.jpg?w=479&ssl=1");
+  position: relative;
+  background-size: cover;
+  overflow: hidden;
+  margin: 30px;
+  width: 50%;
+  height: 300px;
+
+}
+#volk{
+  background-image: url("https://miro.medium.com/max/700/1*0u7gsXnw_EoFbbXf14zEbg@2x.jpeg");
+  position: relative;
+  background-size: cover;
+  overflow: hidden;
+  margin: 30px;
+  width: 50%;
+  height: 300px;
+}
+.cover-link{
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 40%;
+}
+.cover-link a{
+  color: white;
+}
+.tou{
+  display: inline-flexbox;
+flex-direction: column;
+align-items: center;
+width: 100%;
+  margin-top: 40px;
+}
+.vd{
+  clear: right;
+
+}
+.imag{
+  flex-wrap: wrap;
+  align-items: center;
+}
+.tou-description{
+  float: left;
+  padding-top: 50px;
+  width: 45%;
+  position: left top;
+  
+}
+.tou-video{
+  float: right;
+  width: 45%;
+  position: relative;
+  margin-top: 10%;
+
+}
+#top{
+  text-align: center;
+}
+
+#akag {
+  background-image: url("https://lp-cms-production.imgix.net/2019-06/f4b936f22ee00137914887d46236dc07-akagera-national-park.jpg?auto=compress&crop=center&fit=crop&format=auto&h=416&q=45&w=960");
+  margin: 30px;
+  width: 40%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+#nyug {
+  background-image: url("https://www.rwandainsights.com/wp-content/uploads/2020/01/Canopy-Walk-Tour-s-in-Nyungwe-1170x540.jpg");
+  margin: 30px;
+  width: 40%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+#volc {
+  background-image: url("https://drinkteatravel.com/wp-content/uploads/Congo-Virunga-mountain-gorilla-6000-1400x934.jpg");
+  margin: 30px;
+  width: 40%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+#gis {
+  background-image: url("https://pbs.twimg.com/media/EInWZvVXUAAxa5v?format=jpg&name=medium");
+  margin: 30px;
+  width: 40%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.link{
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  padding-left: 10px;
+  width: 100%;
+}
+.link a{
+  color: white;
+}
+
+.footer {
+  display: inline-flexbox;
+  padding: 50px;
+  width: 100%;
+  background-color: rgba(7, 7, 7, 0.918);
+  color: rgb(252, 248, 248);
+  text-align: center;
+}
+.des{
+  text-align: justify;
+  color: grey;
+}
+
